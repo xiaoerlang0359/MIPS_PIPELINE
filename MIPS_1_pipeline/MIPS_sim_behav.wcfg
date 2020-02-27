@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPS_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPS_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="59598416667fs"></ZoomStartTime>
+      <ZoomEndTime time="59817916668fs"></ZoomEndTime>
+      <Cursor1Time time="59680100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/MIPS_sim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/PC_plus_4_IF" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/PC_plus_4_ID" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/PC_plus_4_EX" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/PC_plus_4_MEM" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/Hazard" type="logic">
+      <obj_property name="ElementShortName">Hazard</obj_property>
+      <obj_property name="ObjectShortName">Hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/ifetch0/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/dmem0/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/dmem0/Store_data" type="array">
+      <obj_property name="ElementShortName">Store_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Store_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_sim/MIPS_10/dmem0/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+</wave_config>
