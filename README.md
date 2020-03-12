@@ -9,5 +9,6 @@
 ## 单周期  
 单周期实现  
 ## 流水线  
+![MIPSCPU](https://github.com/xiaoerlang0359/MIPS_PIPELINE/edit/master/MIPSCPU.png)
 
 
